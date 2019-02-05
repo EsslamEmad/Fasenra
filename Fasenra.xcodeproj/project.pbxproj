@@ -7,21 +7,172 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38324C511B355CC55C4585BB /* Pods_Fasenra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBB50D43E7FFCAA5C8D3DB3 /* Pods_Fasenra.framework */; };
+		9208B9C321F8DEC500960A58 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9208B9C221F8DEC500960A58 /* ForgotPasswordViewController.swift */; };
+		9208B9D221F910BA00960A58 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9208B9C621F9108E00960A58 /* Roboto-Black.ttf */; };
+		9208B9D321F910BA00960A58 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9208B9C921F910A300960A58 /* Roboto-BlackItalic.ttf */; };
+		9208B9D421F910BA00960A58 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9208B9CF21F910A600960A58 /* Roboto-Bold.ttf */; };
+		9208B9D521F910BA00960A58 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9208B9D021F910A600960A58 /* Roboto-BoldItalic.ttf */; };
+		9208B9D621F910BA00960A58 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9208B9CE21F910A500960A58 /* Roboto-Italic.ttf */; };
+		9208B9D721F910BA00960A58 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9208B9CB21F910A400960A58 /* Roboto-Light.ttf */; };
+		9208B9D821F910BA00960A58 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9208B9CD21F910A500960A58 /* Roboto-LightItalic.ttf */; };
+		9208B9D921F910BA00960A58 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9208B9D121F910A600960A58 /* Roboto-Medium.ttf */; };
+		9208B9DA21F910BA00960A58 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9208B9CA21F910A400960A58 /* Roboto-MediumItalic.ttf */; };
+		9208B9DB21F910BA00960A58 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9208B9C721F910A300960A58 /* Roboto-Regular.ttf */; };
+		9208B9DC21F910BA00960A58 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9208B9CC21F910A500960A58 /* Roboto-Thin.ttf */; };
+		9208B9DD21F910BA00960A58 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9208B9C821F910A300960A58 /* Roboto-ThinItalic.ttf */; };
+		9208B9E121FA15B700960A58 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9208B9E021FA15B700960A58 /* HomeTableViewController.swift */; };
+		9208B9E421FA165D00960A58 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9208B9E321FA165D00960A58 /* HomeTableViewCell.swift */; };
 		92116B2721F89B1C00B2069C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B2621F89B1C00B2069C /* AppDelegate.swift */; };
-		92116B2921F89B1C00B2069C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B2821F89B1C00B2069C /* ViewController.swift */; };
 		92116B2C21F89B1C00B2069C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92116B2A21F89B1C00B2069C /* Main.storyboard */; };
 		92116B2E21F89B1F00B2069C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92116B2D21F89B1F00B2069C /* Assets.xcassets */; };
 		92116B3121F89B1F00B2069C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92116B2F21F89B1F00B2069C /* LaunchScreen.storyboard */; };
+		92116B3A21F89B5300B2069C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B3921F89B5300B2069C /* User.swift */; };
+		92116B3C21F89CCE00B2069C /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B3B21F89CCE00B2069C /* Page.swift */; };
+		92116B3E21F89D8F00B2069C /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B3D21F89D8F00B2069C /* Note.swift */; };
+		92116B4021F89E3E00B2069C /* Does.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B3F21F89E3E00B2069C /* Does.swift */; };
+		92116B4221F89E9E00B2069C /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B4121F89E9E00B2069C /* Appointment.swift */; };
+		92116B4421F89F1200B2069C /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B4321F89F1200B2069C /* Answer.swift */; };
+		92116B4621F89F5D00B2069C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B4521F89F5D00B2069C /* Question.swift */; };
+		92116B4821F8A2B200B2069C /* ResponseMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B4721F8A2B200B2069C /* ResponseMessage.swift */; };
+		92116B4E21F8A65D00B2069C /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B4D21F8A65D00B2069C /* APIRequests.swift */; };
+		92116B5021F8C00200B2069C /* APIConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B4F21F8C00200B2069C /* APIConvenience.swift */; };
+		92116B5321F8C10300B2069C /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B5221F8C10300B2069C /* Defaults.swift */; };
+		92116B5521F8C32000B2069C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92116B5421F8C32000B2069C /* Login.storyboard */; };
+		92116B5721F8CA7100B2069C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B5621F8CA7100B2069C /* Extensions.swift */; };
+		92116B5A21F8CAE300B2069C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116B5921F8CAE300B2069C /* LoginViewController.swift */; };
+		9212BDC721FF630C00C648D6 /* AboutAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDC621FF630C00C648D6 /* AboutAppViewController.swift */; };
+		9212BDC921FF638200C648D6 /* AboutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDC821FF638200C648D6 /* AboutApp.swift */; };
+		9212BDCB21FF717800C648D6 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDCA21FF717800C648D6 /* NoteTableViewCell.swift */; };
+		9212BDCD21FF71EE00C648D6 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDCC21FF71EE00C648D6 /* NotesViewController.swift */; };
+		9212BDCF21FF78CA00C648D6 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDCE21FF78CA00C648D6 /* AddNoteViewController.swift */; };
+		9212BDD121FF92AA00C648D6 /* DoseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDD021FF92AA00C648D6 /* DoseTableViewCell.swift */; };
+		9212BDD321FF957100C648D6 /* DosesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDD221FF957100C648D6 /* DosesViewController.swift */; };
+		9212BDD52200A14700C648D6 /* AppointmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDD42200A14700C648D6 /* AppointmentTableViewCell.swift */; };
+		9212BDD72200A2E100C648D6 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDD62200A2E100C648D6 /* AppointmentsViewController.swift */; };
+		9212BDD92200BBD200C648D6 /* AddAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDD82200BBD200C648D6 /* AddAppointmentViewController.swift */; };
+		9212BDDB2200CA9F00C648D6 /* ChangeAppointmentStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDDA2200CA9F00C648D6 /* ChangeAppointmentStatusViewController.swift */; };
+		9212BDE02200EDC700C648D6 /* RequestUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDDF2200EDC700C648D6 /* RequestUserViewController.swift */; };
+		9212BDE22200FA4800C648D6 /* CallNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDE12200FA4800C648D6 /* CallNowViewController.swift */; };
+		9212BDE42200FB8B00C648D6 /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDE32200FB8B00C648D6 /* ContactInfo.swift */; };
+		9212BDE62201E4CF00C648D6 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDE52201E4CF00C648D6 /* QuestionTableViewCell.swift */; };
+		9212BDE82201E54500C648D6 /* ACTQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDE72201E54500C648D6 /* ACTQ.swift */; };
+		9212BDEB2201EB5200C648D6 /* ACTQTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDEA2201EB5200C648D6 /* ACTQTableViewController.swift */; };
+		9212BDED2201EE0000C648D6 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDEC2201EE0000C648D6 /* ButtonTableViewCell.swift */; };
+		9212BDEF2201F0C100C648D6 /* AddAnswersRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDEE2201F0C100C648D6 /* AddAnswersRequest.swift */; };
+		9212BDF1220211C500C648D6 /* RequestAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDF0220211C500C648D6 /* RequestAppointmentViewController.swift */; };
+		9212BDF3220218EA00C648D6 /* ScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDF2220218EA00C648D6 /* ScoreTableViewCell.swift */; };
+		9212BDF5220219B800C648D6 /* AllACTQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDF4220219B800C648D6 /* AllACTQViewController.swift */; };
+		9212BDF722021D7900C648D6 /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDF622021D7900C648D6 /* AnswerTableViewCell.swift */; };
+		9212BDF922021E6300C648D6 /* ACTQAnswersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDF822021E6300C648D6 /* ACTQAnswersViewController.swift */; };
+		9212BDFC220343FB00C648D6 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BDFB220343FB00C648D6 /* EditProfileViewController.swift */; };
+		92448BAB22086AC800BFE1F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92448BAA22086AC800BFE1F4 /* GoogleService-Info.plist */; };
+		92B8F66021FA573400C32D6B /* FeelingBetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8F65F21FA573400C32D6B /* FeelingBetterViewController.swift */; };
+		92B8F66321FA659800C32D6B /* AddDoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8F66221FA659800C32D6B /* AddDoctorViewController.swift */; };
+		92B8F66521FB642200C32D6B /* MyDoctorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8F66421FB642200C32D6B /* MyDoctorsViewController.swift */; };
+		92B8F66721FB687E00C32D6B /* MyDoctorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8F66621FB687E00C32D6B /* MyDoctorTableViewCell.swift */; };
+		92B8F66921FD26EB00C32D6B /* DoctorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8F66821FD26EB00C32D6B /* DoctorProfileViewController.swift */; };
+		92B8F66B21FD2AC400C32D6B /* PatientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8F66A21FD2AC400C32D6B /* PatientTableViewCell.swift */; };
+		92B8F66D21FD397100C32D6B /* MyPatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8F66C21FD397100C32D6B /* MyPatientsViewController.swift */; };
+		92B8F67021FDF4A200C32D6B /* PatientStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8F66F21FDF4A200C32D6B /* PatientStatusViewController.swift */; };
+		92B8F67221FDFF7300C32D6B /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8F67121FDFF7300C32D6B /* Photo.swift */; };
+		92B8F67421FE590800C32D6B /* AddPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8F67321FE590800C32D6B /* AddPatientViewController.swift */; };
+		92B8F67621FE627800C32D6B /* ChooseDoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8F67521FE627800C32D6B /* ChooseDoctorViewController.swift */; };
+		92B8F67821FF2A5500C32D6B /* ChooseDoseOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8F67721FF2A5500C32D6B /* ChooseDoseOptionsViewController.swift */; };
+		92B8F67A21FF2A8400C32D6B /* DoseDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8F67921FF2A8400C32D6B /* DoseDateViewController.swift */; };
+		92B8F67C21FF2AC800C32D6B /* DoseTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8F67B21FF2AC800C32D6B /* DoseTimeViewController.swift */; };
+		92E55B34220360B1009F4CB0 /* NotificationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E55B33220360B1009F4CB0 /* NotificationsTableViewController.swift */; };
+		92E55B3622036385009F4CB0 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E55B3522036385009F4CB0 /* NotificationTableViewCell.swift */; };
+		92E55B3822036490009F4CB0 /* UserNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E55B3722036490009F4CB0 /* UserNotification.swift */; };
+		92E55B3A22037479009F4CB0 /* AddRequestedPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E55B3922037479009F4CB0 /* AddRequestedPatientViewController.swift */; };
+		92E55B3C22038C51009F4CB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E55B3B22038C51009F4CB0 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		324B7343A127F21D0FE59DB0 /* Pods-Fasenra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fasenra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fasenra/Pods-Fasenra.release.xcconfig"; sourceTree = "<group>"; };
+		9208B9C221F8DEC500960A58 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		9208B9C621F9108E00960A58 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		9208B9C721F910A300960A58 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		9208B9C821F910A300960A58 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		9208B9C921F910A300960A58 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		9208B9CA21F910A400960A58 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		9208B9CB21F910A400960A58 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		9208B9CC21F910A500960A58 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		9208B9CD21F910A500960A58 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		9208B9CE21F910A500960A58 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		9208B9CF21F910A600960A58 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		9208B9D021F910A600960A58 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9208B9D121F910A600960A58 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		9208B9E021FA15B700960A58 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		9208B9E321FA165D00960A58 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		92116B2321F89B1C00B2069C /* Fasenra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fasenra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92116B2621F89B1C00B2069C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92116B2821F89B1C00B2069C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92116B2B21F89B1C00B2069C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92116B2D21F89B1F00B2069C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92116B3021F89B1F00B2069C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92116B3221F89B1F00B2069C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92116B3921F89B5300B2069C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		92116B3B21F89CCE00B2069C /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		92116B3D21F89D8F00B2069C /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		92116B3F21F89E3E00B2069C /* Does.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Does.swift; sourceTree = "<group>"; };
+		92116B4121F89E9E00B2069C /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		92116B4321F89F1200B2069C /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		92116B4521F89F5D00B2069C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		92116B4721F8A2B200B2069C /* ResponseMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMessage.swift; sourceTree = "<group>"; };
+		92116B4D21F8A65D00B2069C /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		92116B4F21F8C00200B2069C /* APIConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConvenience.swift; sourceTree = "<group>"; };
+		92116B5221F8C10300B2069C /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		92116B5421F8C32000B2069C /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		92116B5621F8CA7100B2069C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		92116B5921F8CAE300B2069C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9212BDC621FF630C00C648D6 /* AboutAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppViewController.swift; sourceTree = "<group>"; };
+		9212BDC821FF638200C648D6 /* AboutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApp.swift; sourceTree = "<group>"; };
+		9212BDCA21FF717800C648D6 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		9212BDCC21FF71EE00C648D6 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		9212BDCE21FF78CA00C648D6 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		9212BDD021FF92AA00C648D6 /* DoseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseTableViewCell.swift; sourceTree = "<group>"; };
+		9212BDD221FF957100C648D6 /* DosesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosesViewController.swift; sourceTree = "<group>"; };
+		9212BDD42200A14700C648D6 /* AppointmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentTableViewCell.swift; sourceTree = "<group>"; };
+		9212BDD62200A2E100C648D6 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
+		9212BDD82200BBD200C648D6 /* AddAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAppointmentViewController.swift; sourceTree = "<group>"; };
+		9212BDDA2200CA9F00C648D6 /* ChangeAppointmentStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAppointmentStatusViewController.swift; sourceTree = "<group>"; };
+		9212BDDF2200EDC700C648D6 /* RequestUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestUserViewController.swift; sourceTree = "<group>"; };
+		9212BDE12200FA4800C648D6 /* CallNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallNowViewController.swift; sourceTree = "<group>"; };
+		9212BDE32200FB8B00C648D6 /* ContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
+		9212BDE52201E4CF00C648D6 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		9212BDE72201E54500C648D6 /* ACTQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACTQ.swift; sourceTree = "<group>"; };
+		9212BDEA2201EB5200C648D6 /* ACTQTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACTQTableViewController.swift; sourceTree = "<group>"; };
+		9212BDEC2201EE0000C648D6 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		9212BDEE2201F0C100C648D6 /* AddAnswersRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnswersRequest.swift; sourceTree = "<group>"; };
+		9212BDF0220211C500C648D6 /* RequestAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAppointmentViewController.swift; sourceTree = "<group>"; };
+		9212BDF2220218EA00C648D6 /* ScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableViewCell.swift; sourceTree = "<group>"; };
+		9212BDF4220219B800C648D6 /* AllACTQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllACTQViewController.swift; sourceTree = "<group>"; };
+		9212BDF622021D7900C648D6 /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
+		9212BDF822021E6300C648D6 /* ACTQAnswersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACTQAnswersViewController.swift; sourceTree = "<group>"; };
+		9212BDFB220343FB00C648D6 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		92448BAA22086AC800BFE1F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		92448BAC22086CD100BFE1F4 /* Fasenra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fasenra.entitlements; sourceTree = "<group>"; };
+		92B8F65F21FA573400C32D6B /* FeelingBetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingBetterViewController.swift; sourceTree = "<group>"; };
+		92B8F66221FA659800C32D6B /* AddDoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDoctorViewController.swift; sourceTree = "<group>"; };
+		92B8F66421FB642200C32D6B /* MyDoctorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDoctorsViewController.swift; sourceTree = "<group>"; };
+		92B8F66621FB687E00C32D6B /* MyDoctorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDoctorTableViewCell.swift; sourceTree = "<group>"; };
+		92B8F66821FD26EB00C32D6B /* DoctorProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorProfileViewController.swift; sourceTree = "<group>"; };
+		92B8F66A21FD2AC400C32D6B /* PatientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientTableViewCell.swift; sourceTree = "<group>"; };
+		92B8F66C21FD397100C32D6B /* MyPatientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPatientsViewController.swift; sourceTree = "<group>"; };
+		92B8F66F21FDF4A200C32D6B /* PatientStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientStatusViewController.swift; sourceTree = "<group>"; };
+		92B8F67121FDFF7300C32D6B /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		92B8F67321FE590800C32D6B /* AddPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPatientViewController.swift; sourceTree = "<group>"; };
+		92B8F67521FE627800C32D6B /* ChooseDoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDoctorViewController.swift; sourceTree = "<group>"; };
+		92B8F67721FF2A5500C32D6B /* ChooseDoseOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDoseOptionsViewController.swift; sourceTree = "<group>"; };
+		92B8F67921FF2A8400C32D6B /* DoseDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseDateViewController.swift; sourceTree = "<group>"; };
+		92B8F67B21FF2AC800C32D6B /* DoseTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseTimeViewController.swift; sourceTree = "<group>"; };
+		92E55B33220360B1009F4CB0 /* NotificationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewController.swift; sourceTree = "<group>"; };
+		92E55B3522036385009F4CB0 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		92E55B3722036490009F4CB0 /* UserNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotification.swift; sourceTree = "<group>"; };
+		92E55B3922037479009F4CB0 /* AddRequestedPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRequestedPatientViewController.swift; sourceTree = "<group>"; };
+		92E55B3B22038C51009F4CB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EBB50D43E7FFCAA5C8D3DB3 /* Pods_Fasenra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fasenra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F022470409BF7C9EE9E6F8A8 /* Pods-Fasenra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fasenra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fasenra/Pods-Fasenra.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +180,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38324C511B355CC55C4585BB /* Pods_Fasenra.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DB3A8287351C760EE92E4E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F022470409BF7C9EE9E6F8A8 /* Pods-Fasenra.debug.xcconfig */,
+				324B7343A127F21D0FE59DB0 /* Pods-Fasenra.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9208B9DE21F910BF00960A58 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9208B9C621F9108E00960A58 /* Roboto-Black.ttf */,
+				9208B9C921F910A300960A58 /* Roboto-BlackItalic.ttf */,
+				9208B9CF21F910A600960A58 /* Roboto-Bold.ttf */,
+				9208B9D021F910A600960A58 /* Roboto-BoldItalic.ttf */,
+				9208B9CE21F910A500960A58 /* Roboto-Italic.ttf */,
+				9208B9CB21F910A400960A58 /* Roboto-Light.ttf */,
+				9208B9CD21F910A500960A58 /* Roboto-LightItalic.ttf */,
+				9208B9D121F910A600960A58 /* Roboto-Medium.ttf */,
+				9208B9CA21F910A400960A58 /* Roboto-MediumItalic.ttf */,
+				9208B9C721F910A300960A58 /* Roboto-Regular.ttf */,
+				9208B9CC21F910A500960A58 /* Roboto-Thin.ttf */,
+				9208B9C821F910A300960A58 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Font;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		9208B9DF21FA159D00960A58 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9208B9E021FA15B700960A58 /* HomeTableViewController.swift */,
+				92B8F65F21FA573400C32D6B /* FeelingBetterViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9208B9E221FA161D00960A58 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9208B9E321FA165D00960A58 /* HomeTableViewCell.swift */,
+				92B8F66621FB687E00C32D6B /* MyDoctorTableViewCell.swift */,
+				92B8F66A21FD2AC400C32D6B /* PatientTableViewCell.swift */,
+				9212BDCA21FF717800C648D6 /* NoteTableViewCell.swift */,
+				9212BDD021FF92AA00C648D6 /* DoseTableViewCell.swift */,
+				9212BDD42200A14700C648D6 /* AppointmentTableViewCell.swift */,
+				9212BDE52201E4CF00C648D6 /* QuestionTableViewCell.swift */,
+				9212BDEC2201EE0000C648D6 /* ButtonTableViewCell.swift */,
+				9212BDF2220218EA00C648D6 /* ScoreTableViewCell.swift */,
+				9212BDF622021D7900C648D6 /* AnswerTableViewCell.swift */,
+				92E55B3522036385009F4CB0 /* NotificationTableViewCell.swift */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
 		92116B1A21F89B1C00B2069C = {
 			isa = PBXGroup;
 			children = (
 				92116B2521F89B1C00B2069C /* Fasenra */,
 				92116B2421F89B1C00B2069C /* Products */,
+				5DB3A8287351C760EE92E4E6 /* Pods */,
+				9F1CB804AF7FD69D3FE8078A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +264,170 @@
 		92116B2521F89B1C00B2069C /* Fasenra */ = {
 			isa = PBXGroup;
 			children = (
-				92116B2621F89B1C00B2069C /* AppDelegate.swift */,
-				92116B2821F89B1C00B2069C /* ViewController.swift */,
-				92116B2A21F89B1C00B2069C /* Main.storyboard */,
-				92116B2D21F89B1F00B2069C /* Assets.xcassets */,
-				92116B2F21F89B1F00B2069C /* LaunchScreen.storyboard */,
+				92448BAC22086CD100BFE1F4 /* Fasenra.entitlements */,
+				92448BAA22086AC800BFE1F4 /* GoogleService-Info.plist */,
 				92116B3221F89B1F00B2069C /* Info.plist */,
+				92116B3821F89B3600B2069C /* Model */,
+				92116B4921F8A3F600B2069C /* View */,
+				92116B4A21F8A40100B2069C /* Controller */,
+				92116B4B21F8A41200B2069C /* Supporting Files */,
 			);
 			path = Fasenra;
+			sourceTree = "<group>";
+		};
+		92116B3821F89B3600B2069C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92116B3921F89B5300B2069C /* User.swift */,
+				92116B3B21F89CCE00B2069C /* Page.swift */,
+				92116B3D21F89D8F00B2069C /* Note.swift */,
+				92116B3F21F89E3E00B2069C /* Does.swift */,
+				92116B4121F89E9E00B2069C /* Appointment.swift */,
+				92116B4321F89F1200B2069C /* Answer.swift */,
+				92116B4521F89F5D00B2069C /* Question.swift */,
+				92116B4721F8A2B200B2069C /* ResponseMessage.swift */,
+				92B8F67121FDFF7300C32D6B /* Photo.swift */,
+				9212BDC821FF638200C648D6 /* AboutApp.swift */,
+				9212BDE32200FB8B00C648D6 /* ContactInfo.swift */,
+				9212BDE72201E54500C648D6 /* ACTQ.swift */,
+				9212BDEE2201F0C100C648D6 /* AddAnswersRequest.swift */,
+				92E55B3722036490009F4CB0 /* UserNotification.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92116B4921F8A3F600B2069C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9208B9E221FA161D00960A58 /* UITableViewCell */,
+				9208B9DE21F910BF00960A58 /* Font */,
+				92116B2F21F89B1F00B2069C /* LaunchScreen.storyboard */,
+				92116B5421F8C32000B2069C /* Login.storyboard */,
+				92116B2A21F89B1C00B2069C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92116B4A21F8A40100B2069C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9212BDE92201EB3900C648D6 /* Patient Operations */,
+				9212BDDE2200ED9600C648D6 /* Doctor Operations */,
+				9212BDC521FF62F100C648D6 /* Others */,
+				92B8F66E21FDF48300C32D6B /* Patient Status */,
+				92B8F66121FA658300C32D6B /* Company Operations */,
+				9208B9DF21FA159D00960A58 /* Home */,
+				92116B5821F8CACB00B2069C /* Login */,
+				92116B4C21F8A63C00B2069C /* API */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92116B4B21F8A41200B2069C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92116B5121F8C0EF00B2069C /* Defaults */,
+				92116B2621F89B1C00B2069C /* AppDelegate.swift */,
+				92116B2D21F89B1F00B2069C /* Assets.xcassets */,
+				92116B5621F8CA7100B2069C /* Extensions.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92116B4C21F8A63C00B2069C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				92116B4D21F8A65D00B2069C /* APIRequests.swift */,
+				92116B4F21F8C00200B2069C /* APIConvenience.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		92116B5121F8C0EF00B2069C /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				92116B5221F8C10300B2069C /* Defaults.swift */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		92116B5821F8CACB00B2069C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				92116B5921F8CAE300B2069C /* LoginViewController.swift */,
+				9208B9C221F8DEC500960A58 /* ForgotPasswordViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9212BDC521FF62F100C648D6 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				9212BDC621FF630C00C648D6 /* AboutAppViewController.swift */,
+				9212BDFB220343FB00C648D6 /* EditProfileViewController.swift */,
+				92E55B33220360B1009F4CB0 /* NotificationsTableViewController.swift */,
+				92E55B3B22038C51009F4CB0 /* ViewController.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		9212BDDE2200ED9600C648D6 /* Doctor Operations */ = {
+			isa = PBXGroup;
+			children = (
+				9212BDDF2200EDC700C648D6 /* RequestUserViewController.swift */,
+				9212BDE12200FA4800C648D6 /* CallNowViewController.swift */,
+			);
+			path = "Doctor Operations";
+			sourceTree = "<group>";
+		};
+		9212BDE92201EB3900C648D6 /* Patient Operations */ = {
+			isa = PBXGroup;
+			children = (
+				9212BDEA2201EB5200C648D6 /* ACTQTableViewController.swift */,
+				9212BDF0220211C500C648D6 /* RequestAppointmentViewController.swift */,
+			);
+			path = "Patient Operations";
+			sourceTree = "<group>";
+		};
+		92B8F66121FA658300C32D6B /* Company Operations */ = {
+			isa = PBXGroup;
+			children = (
+				92B8F66221FA659800C32D6B /* AddDoctorViewController.swift */,
+				92B8F66421FB642200C32D6B /* MyDoctorsViewController.swift */,
+				92B8F66821FD26EB00C32D6B /* DoctorProfileViewController.swift */,
+				92B8F66C21FD397100C32D6B /* MyPatientsViewController.swift */,
+				92B8F67321FE590800C32D6B /* AddPatientViewController.swift */,
+				92B8F67521FE627800C32D6B /* ChooseDoctorViewController.swift */,
+				92B8F67721FF2A5500C32D6B /* ChooseDoseOptionsViewController.swift */,
+				92B8F67921FF2A8400C32D6B /* DoseDateViewController.swift */,
+				92B8F67B21FF2AC800C32D6B /* DoseTimeViewController.swift */,
+				9212BDD62200A2E100C648D6 /* AppointmentsViewController.swift */,
+				9212BDD82200BBD200C648D6 /* AddAppointmentViewController.swift */,
+				9212BDDA2200CA9F00C648D6 /* ChangeAppointmentStatusViewController.swift */,
+				92E55B3922037479009F4CB0 /* AddRequestedPatientViewController.swift */,
+			);
+			path = "Company Operations";
+			sourceTree = "<group>";
+		};
+		92B8F66E21FDF48300C32D6B /* Patient Status */ = {
+			isa = PBXGroup;
+			children = (
+				92B8F66F21FDF4A200C32D6B /* PatientStatusViewController.swift */,
+				9212BDCC21FF71EE00C648D6 /* NotesViewController.swift */,
+				9212BDCE21FF78CA00C648D6 /* AddNoteViewController.swift */,
+				9212BDD221FF957100C648D6 /* DosesViewController.swift */,
+				9212BDF4220219B800C648D6 /* AllACTQViewController.swift */,
+				9212BDF822021E6300C648D6 /* ACTQAnswersViewController.swift */,
+			);
+			path = "Patient Status";
+			sourceTree = "<group>";
+		};
+		9F1CB804AF7FD69D3FE8078A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EBB50D43E7FFCAA5C8D3DB3 /* Pods_Fasenra.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +437,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92116B3521F89B1F00B2069C /* Build configuration list for PBXNativeTarget "Fasenra" */;
 			buildPhases = (
+				27119073BA46702870C4F4D0 /* [CP] Check Pods Manifest.lock */,
 				92116B1F21F89B1C00B2069C /* Sources */,
 				92116B2021F89B1C00B2069C /* Frameworks */,
 				92116B2121F89B1C00B2069C /* Resources */,
+				AF52B71F5D4C5819EC80A346 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +464,14 @@
 				TargetAttributes = {
 					92116B2221F89B1C00B2069C = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,7 +498,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9208B9D421F910BA00960A58 /* Roboto-Bold.ttf in Resources */,
+				9208B9D821F910BA00960A58 /* Roboto-LightItalic.ttf in Resources */,
+				9208B9DA21F910BA00960A58 /* Roboto-MediumItalic.ttf in Resources */,
+				9208B9D621F910BA00960A58 /* Roboto-Italic.ttf in Resources */,
+				9208B9D721F910BA00960A58 /* Roboto-Light.ttf in Resources */,
+				92116B5521F8C32000B2069C /* Login.storyboard in Resources */,
+				9208B9D521F910BA00960A58 /* Roboto-BoldItalic.ttf in Resources */,
+				9208B9D321F910BA00960A58 /* Roboto-BlackItalic.ttf in Resources */,
+				9208B9DC21F910BA00960A58 /* Roboto-Thin.ttf in Resources */,
+				9208B9DB21F910BA00960A58 /* Roboto-Regular.ttf in Resources */,
 				92116B3121F89B1F00B2069C /* LaunchScreen.storyboard in Resources */,
+				92448BAB22086AC800BFE1F4 /* GoogleService-Info.plist in Resources */,
+				9208B9D921F910BA00960A58 /* Roboto-Medium.ttf in Resources */,
+				9208B9DD21F910BA00960A58 /* Roboto-ThinItalic.ttf in Resources */,
+				9208B9D221F910BA00960A58 /* Roboto-Black.ttf in Resources */,
 				92116B2E21F89B1F00B2069C /* Assets.xcassets in Resources */,
 				92116B2C21F89B1C00B2069C /* Main.storyboard in Resources */,
 			);
@@ -130,13 +520,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27119073BA46702870C4F4D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fasenra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF52B71F5D4C5819EC80A346 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fasenra/Pods-Fasenra-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DefaultsKit/DefaultsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RZTransitions/RZTransitions.framework",
+				"${BUILT_PRODUCTS_DIR}/ResponseDetective/ResponseDetective.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DefaultsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RZTransitions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ResponseDetective.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fasenra/Pods-Fasenra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92116B1F21F89B1C00B2069C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92116B2921F89B1C00B2069C /* ViewController.swift in Sources */,
+				9212BDF1220211C500C648D6 /* RequestAppointmentViewController.swift in Sources */,
+				9212BDC921FF638200C648D6 /* AboutApp.swift in Sources */,
+				9212BDE02200EDC700C648D6 /* RequestUserViewController.swift in Sources */,
+				92116B5A21F8CAE300B2069C /* LoginViewController.swift in Sources */,
+				92B8F66021FA573400C32D6B /* FeelingBetterViewController.swift in Sources */,
+				92116B3E21F89D8F00B2069C /* Note.swift in Sources */,
+				92116B5021F8C00200B2069C /* APIConvenience.swift in Sources */,
 				92116B2721F89B1C00B2069C /* AppDelegate.swift in Sources */,
+				92116B4E21F8A65D00B2069C /* APIRequests.swift in Sources */,
+				9212BDE22200FA4800C648D6 /* CallNowViewController.swift in Sources */,
+				92B8F67421FE590800C32D6B /* AddPatientViewController.swift in Sources */,
+				92B8F67221FDFF7300C32D6B /* Photo.swift in Sources */,
+				92B8F67621FE627800C32D6B /* ChooseDoctorViewController.swift in Sources */,
+				9212BDEB2201EB5200C648D6 /* ACTQTableViewController.swift in Sources */,
+				92116B4621F89F5D00B2069C /* Question.swift in Sources */,
+				9212BDE62201E4CF00C648D6 /* QuestionTableViewCell.swift in Sources */,
+				92B8F67021FDF4A200C32D6B /* PatientStatusViewController.swift in Sources */,
+				9212BDF5220219B800C648D6 /* AllACTQViewController.swift in Sources */,
+				92B8F66521FB642200C32D6B /* MyDoctorsViewController.swift in Sources */,
+				92B8F66721FB687E00C32D6B /* MyDoctorTableViewCell.swift in Sources */,
+				92B8F67821FF2A5500C32D6B /* ChooseDoseOptionsViewController.swift in Sources */,
+				92116B4821F8A2B200B2069C /* ResponseMessage.swift in Sources */,
+				92E55B3622036385009F4CB0 /* NotificationTableViewCell.swift in Sources */,
+				9212BDDB2200CA9F00C648D6 /* ChangeAppointmentStatusViewController.swift in Sources */,
+				92B8F67C21FF2AC800C32D6B /* DoseTimeViewController.swift in Sources */,
+				9212BDD52200A14700C648D6 /* AppointmentTableViewCell.swift in Sources */,
+				9212BDD121FF92AA00C648D6 /* DoseTableViewCell.swift in Sources */,
+				9212BDD92200BBD200C648D6 /* AddAppointmentViewController.swift in Sources */,
+				9212BDE42200FB8B00C648D6 /* ContactInfo.swift in Sources */,
+				92116B3C21F89CCE00B2069C /* Page.swift in Sources */,
+				92B8F66B21FD2AC400C32D6B /* PatientTableViewCell.swift in Sources */,
+				9212BDC721FF630C00C648D6 /* AboutAppViewController.swift in Sources */,
+				9212BDCF21FF78CA00C648D6 /* AddNoteViewController.swift in Sources */,
+				9212BDE82201E54500C648D6 /* ACTQ.swift in Sources */,
+				9208B9E121FA15B700960A58 /* HomeTableViewController.swift in Sources */,
+				9212BDD72200A2E100C648D6 /* AppointmentsViewController.swift in Sources */,
+				92E55B3822036490009F4CB0 /* UserNotification.swift in Sources */,
+				92E55B3A22037479009F4CB0 /* AddRequestedPatientViewController.swift in Sources */,
+				92B8F66321FA659800C32D6B /* AddDoctorViewController.swift in Sources */,
+				92B8F66D21FD397100C32D6B /* MyPatientsViewController.swift in Sources */,
+				92B8F66921FD26EB00C32D6B /* DoctorProfileViewController.swift in Sources */,
+				92116B4021F89E3E00B2069C /* Does.swift in Sources */,
+				92116B5721F8CA7100B2069C /* Extensions.swift in Sources */,
+				92116B4221F89E9E00B2069C /* Appointment.swift in Sources */,
+				92E55B34220360B1009F4CB0 /* NotificationsTableViewController.swift in Sources */,
+				9212BDD321FF957100C648D6 /* DosesViewController.swift in Sources */,
+				9208B9C321F8DEC500960A58 /* ForgotPasswordViewController.swift in Sources */,
+				92B8F67A21FF2A8400C32D6B /* DoseDateViewController.swift in Sources */,
+				9212BDF3220218EA00C648D6 /* ScoreTableViewCell.swift in Sources */,
+				92116B5321F8C10300B2069C /* Defaults.swift in Sources */,
+				92116B3A21F89B5300B2069C /* User.swift in Sources */,
+				9212BDCD21FF71EE00C648D6 /* NotesViewController.swift in Sources */,
+				9212BDFC220343FB00C648D6 /* EditProfileViewController.swift in Sources */,
+				9208B9E421FA165D00960A58 /* HomeTableViewCell.swift in Sources */,
+				9212BDEF2201F0C100C648D6 /* AddAnswersRequest.swift in Sources */,
+				9212BDED2201EE0000C648D6 /* ButtonTableViewCell.swift in Sources */,
+				92E55B3C22038C51009F4CB0 /* ViewController.swift in Sources */,
+				92116B4421F89F1200B2069C /* Answer.swift in Sources */,
+				9212BDF922021E6300C648D6 /* ACTQAnswersViewController.swift in Sources */,
+				9212BDF722021D7900C648D6 /* AnswerTableViewCell.swift in Sources */,
+				9212BDCB21FF717800C648D6 /* NoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,37 +796,43 @@
 		};
 		92116B3621F89B1F00B2069C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F022470409BF7C9EE9E6F8A8 /* Pods-Fasenra.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Fasenra/Fasenra.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZV3V89VA7Y;
+				DEVELOPMENT_TEAM = 6E4SEUDA7B;
 				INFOPLIST_FILE = Fasenra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.esslamemad.Fasenra;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alyom.FAST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		92116B3721F89B1F00B2069C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 324B7343A127F21D0FE59DB0 /* Pods-Fasenra.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Fasenra/Fasenra.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZV3V89VA7Y;
+				DEVELOPMENT_TEAM = 6E4SEUDA7B;
 				INFOPLIST_FILE = Fasenra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.esslamemad.Fasenra;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alyom.FAST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
